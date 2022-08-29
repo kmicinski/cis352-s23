@@ -16,359 +16,56 @@ placed upon training in algorithmic thinking and programming strategy.
 
 <b>Instructors:</b>
 - Kris Micinski, Asst. Prof at Syracuse ECS
-  - Office hours: Friday 10:30-11:30 and by appointment rest of the week.
-- Davis Silverman (TA), PhD candidate at Syracuse ECS
-  - Office hours: Wednesday 12AM-2PM, Thursday 1PM-3PM -- ***CST 4-288***.
-- Chang Liu (TA), MS student at Syracuse ECS
-  - Office hours: Monday 10:00 - 12:00 [Zoom link](https://syracuseuniversity.zoom.us/j/2726743933)
+  - Office hours (CST 4-185): Tu/Th for an hour after class.
+- Jack Levin (TA), MS student at Syracuse ECS
+  - Office hours: Monday/Wednesday 3-4PM, CST 0-123
 
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
-    - We assume you have watched the videos before class
-    - Class slides are available <a href="{{ site.url }}/{{ site.baseurl }}/assets/slides/class_slides_s22.pdf" target="_blank">at this link</a>.
-  - Participation points:
-    - Quiz before each lecture (closes as lecture begins)
-    - See other sources of participation below
+    - I assume you have watched the videos before class; but no big
+      pressure to understand everything, I will recap during
+      class. However, please think of recorded lectures as "the book."
   - 5 projects
-  - 4 in-person quizzes (80 minutes, on paper) and a final (120 minutes, on paper)
+  - 2 midterms, 1 final (both 20%, lowest drops)
   - This will be a project-focused course. Approximately 3-5 hours per
     week outside of class is expected. I recommend against taking this
     course concurrent with other project-heavy courses.
 
-**No Monday Labs**:
- - As a 3-credit course, Monday labs are not required as part of the
-   curriculum. Instead, the professor and TAs will likely plan to hold
-   some Monday office hours instead.
-
 ## Grading
 
-Grading has been simplified compared to previous offerings of
-CIS352. For Spring 2022, there are only two major components to the
-grade: exams and projects, which are both grade on a percent
-scale. Participation possibly adds a "plus" (i.e., A- to A), a
-"minus," (A to A-) or no change at all (B remains B) to the grade
-based how much participation is done.
+- **Exams -- 40%**
+ - Two midterms, one final. Each exam is worth 20%, and lowest of the
+   three drops. Midterms cover 5 of 10 learning objectives (see links
+   at top of page); particular focus topics will be announced on Zulip
+   or in class a day or two before the exam. Students are allowed a
+   handwritten, one-sided, US letter-sized note sheet. The final is
+   comprehensive and includes 10 questions.
+ - For both midterms (but not the final) students are allowed to write
+   corrections and get back 50% for each problem on which they made a
+   "good faith attempt" (some not-insignificat effort towards a
+   solution).
+- **Projects -- 60%**
+ - Five projects, worth 15% each, except for one shorter warmup
+   project worth 10%.
 
-There is a detailed chart below explaining the grading policy, but it
-is roughly this: (a) there are exams and projects, (b) if you get at
-least an 80% in one category and at least a 90% in the other, you will
-get an A (and so on), (c) if you get fewer than 20 participation
-points, you will get a "minus" taken from your grade in (b), [20-30)
-participation points will cause no change, and >=30 participation
-points will add a "plus" to the grade. Note that there is no A+,
-however, the professor will track this information for recommendation
-letters and references.
-
-### Informal Grading Rules for CIS352
-
-- Your grade consists of participation, projects, and quiz / exam
-  questions.
-- The bulk of this is projects and exams, and most of your time will
-  be spent on projects.
-
-Project Grading:
-- Projects are graded on a percentage basis, based on the number of
-  passing tests (including some hidden tests).
-- Projects are graded via the autograder. You may submit as many times
-  as you like up until 11:59PM on the day of the project's
-  deadline. However, the autograder will rate-limit you by providing
-  you with a set number of tokens per day.
-
-Exam Grading:
-- There are 12 exam questions, and *every* quiz/exam is
-  cumulative. Each of the twelve questions will cover the same rough
-  topics (learning objectives), and you will always get the *maximum*
-  grade throughout the entire course on a project.
-  - As an example, if you get 4/5 points on question 1 on quiz 1, and
-    5/5 points on question 1 (different question, same topic) on quiz
-    2, you will have achieved the max score on question 1 and need not
-    reattempt it in the rest of the course.
-- There will be 4 in-person "quizzes" that take the whole class
-  period. They will be in class roughly every few weeks.
-  - You may submit up to *six* answers per quiz.
-- There will be a cumulative final where you will see (again) all 12
-  exam questions. You may submit up to *eight* answers on the final
-  (to raise your previous grade on each of eight questions, possibly
-  to 100% for that question)
-
-Participation:
-- There are many opportunities for participation points, outlined
-  below. You need at least 20 in the course, otherwise you will get a
-  "minus" (e.g., A to A-). If you get more than 30 participation
-  points, you get a "plus" (e.g., A- to A).
-
-Final Grading:
-- Finally, your grade is given using the table below based on the
-  higher and lower of your exam / project grades. Roughly: you will
-  get an A with 80% in one category (exams/projects) and 90% in the
-  other (and so on at 2-3-point intervals), and then a
-  plus/minus/no-change will be taken based on participation.
-
-Example:
-- Janice gets an average of 85% on the projects, as reported by the
-  Autograder. Janice gets a 87% on the exams, as reported by
-  BlackBoard. Janice would get an A-, but also has 31 participation
-  points, so gets an A.
-
-<div class="container" id="grade-calculator">
-  <div class="row">
-    <div class="leftside">
-      <table class="table table-sm table-striped grade-table table-hover">
-        <thead>
-          <tr class="gradestop">
-            <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams (Higher)</strong></th>
-            <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams (Lower)</strong></th>
-            <th scope="col">Base Grade</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr id="gradea">
-            <td class="lggradecol" id="result-A-h">90</td>
-            <td class="lggradecol" id="result-A-l">80</td>
-            <th scope="row" id="result-A">A</th>
-          </tr>
-          <tr id="gradeam">
-            <td class="lggradecol" id="result-A--h">87</td>
-            <td class="lggradecol" id="result-A--l">77</td>
-            <th scope="row" id="result-A-">A-</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-B+-h">85</td>
-            <td class="lggradecol" id="result-B+-l">75</td>
-            <th scope="row" id="result-B+">B+</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-B-h">83</td>
-            <td class="lggradecol" id="result-B-l">73</td>
-            <th scope="row" id="result-B">B</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-B--h">80</td>
-            <td class="lggradecol" id="result-B--l">70</td>
-            <th scope="row" id="result-B-">B-</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-C+-h">77</td>
-            <td class="lggradecol" id="result-C+-l">67</td>
-            <th scope="row" id="result-C+">C+</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-C-h">74</td>
-            <td class="lggradecol" id="result-C-l">64</td>
-            <th scope="row" id="result-C">C</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-C--h">70</td>
-            <td class="lggradecol" id="result-C--l">60</td>
-            <th scope="row" id="result-C-">C-</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-D-h">60</td>
-            <td class="lggradecol" id="result-D-l">50</td>
-            <th scope="row" id="result-D">D</th>
-          </tr>
-          <tr>
-            <td class="lggradecol" id="result-F-h">&lt; 60</td>
-            <td class="lggradecol" id="result-F-l">&lt; 50</td>
-            <th scope="row" id="result-F">&lt;D</th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-<div class="rightside">
-          <table class="table table-sm table-striped grade-table participation">
-            <thead>
-              <tr class="gradestop">
-                <th scope="col"><strong>Participation</strong></th>
-                <th scope="col"><strong>GPA Δ</strong></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="smgradecol" id="part-minus" style="background-color: white;">&lt; 20</td>
-                <th scope="row">-</th>
-              </tr>
-              <tr>
-                <td class="smgradecol" id="part-stay" style="background-color: white;">≥ 20 – &lt; 30</td>
-                <th scope="row">=</th>
-              </tr>
-              <tr>
-                <td class="smgradecol" id="part-plus" style="background-color: white;">≥ 30</td>
-                <th scope="row">+</th>
-              </tr>
-            </tbody>
-          </table>
-          <div class="div_calc">
-            <p style="text-align: center; font-size: 16pt; margin-bottom: 0px;">Grade calculator</p>
-            <form onkeyup="calculate()">
-              <div class="leftside_calc" style="width: 200px;padding-right: 10px;">
-                <label for="Proj">Project:</label>
-                <input type="text" id="proj_score_input" name="exam_exce" size="7" style="float:right" required="">
-              </div>
-              <div class="rightside_calc" style="width: 200px;padding-right: 10px;">
-                <label for="Exam">Exam:</label>
-                <input type="text" id="exam_score_input" name="exam_sati" size="7" style="float:right" required="">
-              </div>
-              <div class="rightside_calc" style="width: 200px;padding-right: 10px;">
-                <label for="Part">Participation:</label>
-                <input type="text" id="part_score_input" name="exam_sati" size="7" style="float:right" required="">
-                <p id="calc_result_0" style="display:inline-block;">Final grade:</p>
-                <h3 id="calc_result" style="display:inline-block;">-</h3>
-              </div>
-            </form>
-            <style>
-              .table-sm td, .table-sm th {padding:0.4rem;}
-            </style>
-            <script>
-              function place_highlights(high, low, part, result) {
-                  grade_a = [90, 80]
-                  grade_am = [87, 77]
-                  grade_bp = [85, 75]
-                  grade_b = [83, 73]
-                  grade_bm = [80, 70]
-                  grade_cp = [77, 67]
-                  grade_c = [74, 64]
-                  grade_cm = [70, 60]
-                  grade_d = [60, 50]
-                  grade_f = [0, 0]
-                  var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d, grade_f]
-                  function clear_col(base) {
-                    var element = document.getElementById(base+"-l");
-                    element.style.backgroundColor = 'white';
-                    var element = document.getElementById(base+"-h");
-                    element.style.backgroundColor = 'white';
-                  }
-                  function highlight(ele) {
-                    // console.log("highlight "+ele)
-                      document.getElementById(ele).style.backgroundColor = "#ff7f50";
-                  }
-                  // clear colors                
-                  for (i=0; i < 10; i++) {
-                          grade = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
-                          var element = document.getElementById("result-"+grade);
-                          if (element!==null){
-                            element.style.backgroundColor = 'white';
-                          }
-                          clear_col("result-"+grade);
-                  }
-                  // clear participation too
-                  document.getElementById("part-minus").style.backgroundColor = "white";
-                  document.getElementById("part-stay").style.backgroundColor = "white";
-                  document.getElementById('part-plus').style.backgroundColor = "white";
-                  for (i=0; i < 10; i++) {
-                          grade = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
-                          var element = document.getElementById("result-"+grade);
-                          if (element!==null){
-                            element.style.backgroundColor = 'white';
-                          }
-                          clear_col("result-"+grade);
-                  }
-                  for (i=0; i < 10; i++) {
-                    if (high>=calibrate[i][0]){
-                      fst = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
-                      highlight("result-" + fst + "-h");
-                      break;
-                    }
-                  }
-                  for (i=0; i < 10; i++) {
-                    if (low>=calibrate[i][1]){
-                      snd = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
-                      highlight("result-" + snd + "-l");
-                      break;
-                    }
-                  }                  
-                  if (part < 20) {
-                      highlight("part-minus");
-                  } else if (part >= 30) {
-                      highlight("part-plus");
-                  } else {
-                      highlight("part-stay");
-                  }
-                  if (["A", "A-"].includes(result)){
-                    document.getElementById("result-" + result).style.backgroundColor = "#28a745";
-                  }
-                  if (["B", "B-", "B+"].includes(result)){
-                    document.getElementById("result-" + result).style.backgroundColor = "#ffc107";
-                  }
-                  if (["C", "C-", "C+"].includes(result)){
-                    document.getElementById("result-" + result).style.backgroundColor = "#007bff";
-                  }
-                  if (["D", "F"].includes(result)){
-                    document.getElementById("result-" + result).style.backgroundColor = "#dc3545";
-                  }
-              }
-              function calculate() {
-                  var examscore = parseInt(document.getElementById('exam_score_input').value)
-                  var projscore = parseInt(document.getElementById('proj_score_input').value)
-                  var pa = parseInt(document.getElementById('part_score_input').value)
-                  grade_a = [90, 80]
-                  grade_am = [87, 77]
-                  grade_bp = [85, 75]
-                  grade_b = [83, 73]
-                  grade_bm = [80, 70]
-                  grade_cp = [77, 67]
-                  grade_c = [74, 64]
-                  grade_cm = [70, 60]
-                  grade_d = [60, 50]
-                  var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d]
-                  var count = [0,0]
-                  var validcheck = (examscore >= 0) && (examscore <= 150) && (projscore <= 100) && (projscore >=0) && (pa <= 100) && (pa>=0)
-                  var complete = !isNaN(examscore) && !isNaN(pa) && !isNaN(projscore)
-                  // console.log(complete)
-                  var high = Math.max(examscore, projscore)
-                  var low = Math.min(examscore, projscore)
-                  grade = [high, low]
-                  for(i=0;i<5;i++){
-                      // console.log(i)
-                      for(j=0;j<9;j++){
-                          if(grade[i]<calibrate[j][i]){
-                            count[i]++;
-                          }
-                      }
-                  }
-                  if(complete && validcheck){
-                      var rowsink = Math.max.apply(null, count)
-                      result = "-"
-                      if(rowsink<0){
-                          result = "A"
-                      }
-                      else{
-                          result = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
-                      }
-                      if (result) {
-                          place_highlights(high, low, pa, result)
-                      }
-                      if(pa>=30) rowsink--;
-                      else if(pa<20) rowsink++;
-                      if(rowsink>9){
-                          result = "F";
-                      }
-                      result_calibrated = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
-                      document.getElementById("calc_result_0").innerHTML = "Final grade:";
-                      document.getElementById("calc_result").innerHTML = result_calibrated;
-                  }
-                  if(!complete && validcheck){
-                      document.getElementById("calc_result_0").innerHTML = "Please complete form";
-                      document.getElementById("calc_result").innerHTML = "";
-                  }
-                  if(complete && !validcheck){
-                      document.getElementById("calc_result_0").innerHTML = "Invalid scores";
-                      document.getElementById("calc_result").innerHTML = "";
-                  }
-              }
-            </script>
-          </div>
-        </div>
-  </div>
-</div>
-
+Final grades will be assigned as follows; final grading bars will be
+announced a few days before the final exam.
+ - A  -- 88%
+ - B+ -- 85%
+ - B  -- 82%
+ - B- -- 78%
+ - C+ -- 74%
+ - C  -- 70%
+ - C- -- 65%
+ - D  -- 60%
+ - &lt; D -- &lt; 60%
 
 #### Projects
 
-There are *five programming projects* in the Racket programming
-language. Projects will generally have deadlines of roughly 12
-calendar days from their assignment (though this may be adjusted at
-times). Projects will be graded using an *autograder* whose URL is
+There are *five programming projects* in Racket. Projects will
+generally have deadlines of roughly 12 calendar days from their
+assignment (though this may be adjusted at times). Projects will be
+graded using an *autograder* whose URL is
 [https://autograde.org](https://autograde.org). You will receive
 credentials for the autograder--if you have not received these by the
 first day of class, let Chang (TA) know. You are expected to learn how
@@ -386,60 +83,35 @@ students (and will exclusively help support) using Git.
 
 Exams explicitly measure your ability to materialize solutions to
 questions regarding relevant course content in an open-ended
-fashion. There will be four "quizzes" through the semester, each of
-which will have up to 12 questions, based on the number of topics
-presented so far in the course. Each exam will be cumulative, and for
-each question number N (between 1 and 12) the content will be roughly
-the same with a different question. These questions correspond to the
-learning objectives (see top of page).
+fashion. There will be two midterms both with roughly five questions
+each. Questions will be drawn from the learning objectives at the top
+of the page.
 
-You will always get your *maximum* grade on any one problem. You can
-keep submitting (say) problem 5 until you either run out of chances
-(the final) or achieve full marks on that question.
-
-We see in-person exams as a crucial counterpart to coding projects in
-determining the course grade. We recognize exams can be stressful. It
-is our intention that our grading scheme (frequent quizzes that allow
-you to raise your score after several attempts at the same material,
-along with the fact that a lower score in exams may be offset by
-project grades) will help assuage exam-related stress. However, the
-instructors strongly encourage students to look into the resources
-provided by the Barnes Center (such as extended exam time) if a
-student thinks their academic performance is impeded by exam-related
-stress.
-
-#### Participation Credit (at least 30+ available)
-
-Lots of participation credit will be available. Last year, the
-most-participating student accrued 43 participation points. You get
-participation in several ways:
-  - &gt;50% participation quiz (on Blackboard) before each class gives
-    1 point, closes when class begins. (I.e., there is a quiz for
-    *each class* that goes along with the videos.)
-  - Volunteering to livecode in class gives 2 points. Students are
-    encouraged to present, and we will work to establish a positive
-    environment where all students can make progress even if they
-    don't at first succeed. However, if you feel you simply cannot
-    livecode in class you may ask me about doing some individualized
-    programming instruction with the TAs / instructor instead.
-  - "Introduce yourself" to class (1 minute answer to question) gives 1 point.
-  - "Meet your professor" to discuss career goals gives 1 point.
-  - Groups that present answers to in-class questions will receive 1 point.
+We realize exams can be stressful. The instructors strongly encourage
+students to look into the resources provided by the Barnes Center
+(such as extended exam time) if a student thinks their academic
+performance is impeded by exam-related stress. We are happy to provide
+accomodations for exams, but the instructors request at least 72 hours
+notice for each exam so that we may upload the necessary material to
+the student testing center.
 
 #### Collaboration and the Honor Code
 
 - Projects and exams must be completed alone, without exception.
-- Specifically, you must never send your code to anyone or allow
+- Specifically, you must *never* send your code to anyone or allow
   anyone to watch you code, obtain your code, study your code, copy
   your code, etc... We expect you will take reasonable precautious to
   ensure the secrecy of your solutions (e.g., closing your laptop
   before leaving your apartment, if living with other students).
-- The autograder employs elaborate cheat-detection techniques. These
-  techniques will compare your code to other students' submissions,
-  along with students from previous years. The TAs will be using these
+- The autograder employs elaborate cheat-detection techniques,
+  including advanced static analyses. These techniques will compare
+  your code to other students' submissions, along with students from
+  previous semesters. The TAs and instructor will be using these
   features to periodically scan for students who are cheating. Past
   experience shows us that this system is very robust, and has allowed
-  us to detect several large clusters of collaborating students.
+  us to detect several large clusters of collaborating students; all
+  violations reported in CIS352 have been upheld by the Syracuse
+  University academic integrity council.
 - All apparent cases (with credible evidence, as determined by lead
   instructor) of academic dishonesty will be reported, even if the
   student believes they made an honest mistake, or no mistake at
@@ -462,6 +134,13 @@ participation in several ways:
   a challenging line to walk, and thus, we recommend the following
   heuristic: when talking to other students about code, discuss mostly
   the in-class exercises and participation coding exercises.
+- You may not "hard code" solutions to tests for projects. The TAs and
+  professor will audit all student solutions, and use automated static
+  analysis tools, to check for potential hard-coding or other
+  practices that circumvent the spirit of our automated
+  tests--hard-coding solutions is considered a particularly offensive
+  violation and will be immediately reported to the academic integrity
+  board.
 - Cite all help other than the professor, T.A., and
   required/recommended text (you are allowed to cite those if you
   wish, but it is not required unless you are specifically told
@@ -481,8 +160,9 @@ participation in several ways:
   then properly learn the material).
 - If a student is found (by the university academic integrity council)
   to have violated the academic integrity policy, the instructor
-  reserves the right to impose any grade sanction they see fit, up to
-  and including course failure.
+  reserves the right to impose any grade-related sanction they see
+  fit, up to and including course failure--regardless of the level
+  suggested by the academic integrity council.
 
 ## Student Support
 
@@ -538,7 +218,7 @@ expression or perceived gender.
 
 Any complaint of discrimination or harassment related to any of these
 protected bases should be reported to Sheila Johnson-Willis, the
-Universitys Chief Equal Opportunity & Title IX Officer. She is
+University's Chief Equal Opportunity & Title IX Officer. She is
 responsible for coordinating compliance efforts under various laws
 including Titles VI, VII, IX and Section 504 of the Rehabilitation
 Act. She can be contacted at Equal Opportunity, Inclusion, and
@@ -546,16 +226,17 @@ Resolution Services, 005 Steele Hall, Syracuse University, Syracuse,
 NY 13244-1120; by email: titleix@syr.edu; or by telephone:
 315-443-0211.
 
-If you notice any incidents of harassment or discrimination, however
-minor, please email me. You may wish to use an anonymous email service
-such as https://anonymousemail.me/. Please feel free to tell me as
-much as you feel comfortable.  I am a mandatory Title IX reporter and
-must report incidents such as sexual harassment, relationship
-violence, stalking, etc...
+If you notice any incidents of harassment or discrimination in class
+or related venues (Zulip, other chats with students), however minor,
+please email me. You may wish to use an anonymous email service such
+as https://anonymousemail.me/. Please feel free to tell me as much as
+you feel comfortable.  As a notice: I am a mandatory Title IX reporter
+and thus am legally-compelled to report incidents such as sexual
+harassment, relationship violence, stalking, etc...
 
-## Slack
+## Zulip
 
-Slack is an instant messaging app for teams. We'll be using it for
-most course management. This is the best place to get in touch with me
-for one-off questions, ask for an appointment for office hours,
-etc.. Email me if you have not been invited to the course Slack.
+Zulip is a messaging platform for teams. We'll be using it for most
+course management. This is the best place to get in touch with me for
+one-off questions, ask for an appointment for office hours,
+etc.. Email me if you have not been invited to the course Zulip.
