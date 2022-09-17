@@ -68,9 +68,9 @@ assignment (though this may be adjusted at times). Projects will be
 graded using an *autograder* whose URL is
 [https://autograde.org](https://autograde.org). You will receive
 credentials for the autograder--if you have not received these by the
-first day of class, let Chang (TA) know. You are expected to learn how
-to use the Git interface to the autograder--the autograder will
-technically accept archives, but the instructors strongly prefer
+second week of class, let the professor know. You are expected to
+learn how to use the Git interface to the autograder--the autograder
+will technically accept archives, but the instructors strongly prefer
 students (and will exclusively help support) using Git.
 
 ##### Project Late Policy
@@ -110,19 +110,19 @@ the student testing center.
   features to periodically scan for students who are cheating. Past
   experience shows us that this system is very robust, and has allowed
   us to detect several large clusters of collaborating students; all
-  violations reported in CIS352 have been upheld by the Syracuse
+  violations ever reported in CIS352 have been upheld by the Syracuse
   University academic integrity council.
 - All apparent cases (with credible evidence, as determined by lead
   instructor) of academic dishonesty will be reported, even if the
   student believes they made an honest mistake, or no mistake at
   all. We understand honor violations are stressful processes, and
-  thus we strive to only submit honor code cases when we believe there
-  is clear evidence that the honor board should review our findings
-  independently.
+  thus we strive to only submit academic integrity cases when we
+  believe there is clear evidence that the academic integrity board
+  should review our findings independently.
 - You may collaborate, to any degree you want, with anyone (even
-  outside of your group) on participation coding exercises. These will
-  be clearly labeled, and are specifically not the course projects
-  (which explicitly disallow any form of collaboration).
+  outside of your group) on in-class or self-study exercises. These
+  will be clearly labeled, and are specifically not the course
+  projects (which explicitly disallow any form of collaboration).
 - While we recommend you discuss the project specification with your
   peers, you should basically never be getting help from peers about
   your code. In particular, you should never be showing another

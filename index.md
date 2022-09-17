@@ -26,19 +26,19 @@ layout: mainpage
       <th scope="row">8/30</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=3">Introduction to Racket and Dr. Racket</a></td>
+      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=3">Introduction to Racket and Dr. Racket (video)</a> <a href="{{ '/assets/slides/cis352-f22-l0.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/1</th>
       <td>Lecture</td>
       <td>L1</td>
-      <td><a href="https://www.youtube.com/watch?v=kMOgrVjEuk8">Racket Forms and Callsites</a></td>
+      <td><a href="https://www.youtube.com/watch?v=kMOgrVjEuk8">Forms and Callsites</a> and <a href="https://www.youtube.com/watch?v=bnzjganKVgU">Definitions and the Environment</a> <a href="{{ '/assets/slides/cis352-f22-l1.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/6</th>
       <td>Lecture</td>
       <td>L2</td>
-      <td><a href="https://www.youtube.com/watch?v=bnzjganKVgU">Definitions and the Environment</a> and <a href="https://www.youtube.com/watch?v=4HPjJ4M6XVc">Textual Reduction</a></td>
+      <td><a href="https://www.youtube.com/watch?v=4HPjJ4M6XVc">Textual Reduction</a> and <a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=6&ab_channel=KristopherMicinski">Case Splitting and Lists Intro</a> <a href="{{ '/assets/slides/cis352-f22-l2.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">9/1 &ndash; 9/8</th>
@@ -50,19 +50,13 @@ layout: mainpage
       <th scope="row">9/8</th>
       <td>Lecture</td>
       <td>L3</td>
-      <td>(Kris @ PLMW/ICFP) -- Racket Practice</td>
-    </tr>
-    <tr class="table-warning">
-      <th scope="row">9/8</th>
-      <td>Project</td>
-      <td>P0</td>
-      <td>Racket warmup</td>
+      <td>(Kris @ PLMW/ICFP) -- Racket Practice Exercise</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/12</th>
       <td>Lecture</td>
       <td>L4</td>
-      <td>Lecture on Zoom (Kris in Slovenia): <a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=6&ab_channel=KristopherMicinski">Case Splitting and Lists Intro</a></td>
+      <td>Lecture on Zoom (Kris in Slovenia): topic TBD</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/15</th>
@@ -75,6 +69,12 @@ layout: mainpage
       <td>Reading</td>
       <td>R1</td>
       <td>SICP sections <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.6">1.1.6</a>  and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2">1.2 up to 1.2.3</a></td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">9/17</th>
+      <td>Project</td>
+      <td>P0</td>
+      <td><a href="{{ '/projects/1 | prepend: site.baseurl | prepend: site.url }}">ASCII Art -- Released</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/20</th>
@@ -99,6 +99,12 @@ layout: mainpage
       <td>Reading</td>
       <td>R2</td>
       <td><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3">SICP section  1.3</a> and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1">2.1</a></td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">9/27</th>
+      <td>Project</td>
+      <td>P0</td>
+      <td><a href="{{ '/projects/1 | prepend: site.baseurl | prepend: site.url }}">PROJECT 0 DEADLINE</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/27</th>
