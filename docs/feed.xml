@@ -5,8 +5,8 @@
     <description>CMSC352--Principles of Programming Languages (Spring '22) at Syracuse</description>
     <link>https://kmicinski.com/cis352-f22/</link>
     <atom:link href="https://kmicinski.com/cis352-f22/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Sep 2022 16:21:56 -0400</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2022 16:21:56 -0400</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2022 16:22:47 -0400</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2022 16:22:47 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -64,7 +64,7 @@ outputs an equivalent photo. In terms of the following diagram,
         |                             ||
 parse-ascii-diagram                   ||
         |                            equal?
- draw-ascii-diagram		              ||
+ draw-ascii-diagram                   ||
         |                             ||
 	    +---------- displayln ---&amp;gt; output1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
