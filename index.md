@@ -73,26 +73,20 @@ layout: mainpage
     <tr class="table-warning">
       <th scope="row">9/17</th>
       <td>Project</td>
-      <td>P0</td>
-      <td><a href="{{ '/projects/1 | prepend: site.baseurl | prepend: site.url }}">ASCII Art -- Released</a></td>
+      <td>P1</td>
+      <td><a href="{{ '/projects/1' | prepend: site.baseurl | prepend: site.url }}">ASCII Art -- Released</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/20</th>
       <td>Lecture</td>
       <td>L6</td>
-      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=9">Lambdas</a></td>
-    </tr>
-    <tr class="table-warning">
-      <th scope="row">9/20</th>
-      <td>Project</td>
-      <td>P1</td>
-      <td><a href="https://www.youtube.com/watch?v=ApIXt_Exf7g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=8">Tic-Tac-Toe</a></td>
+      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=9">Lambdas</a> <a href="{{ '/assets/slides/lambdas.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/22</th>
       <td>Lecture</td>
       <td>L7</td>
-      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=10">Cons Diagrams and Boxes</a></td>
+      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=10">Cons Diagrams and Boxes</a> <a href="{{ '/assets/slides/cons.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">9/22</th>
@@ -100,24 +94,30 @@ layout: mainpage
       <td>R2</td>
       <td><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3">SICP section  1.3</a> and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1">2.1</a></td>
     </tr>
-    <tr class="table-warning">
-      <th scope="row">9/27</th>
-      <td>Project</td>
-      <td>P0</td>
-      <td><a href="{{ '/projects/1 | prepend: site.baseurl | prepend: site.url }}">PROJECT 0 DEADLINE</a></td>
-    </tr>
     <tr class="table-primary">
       <th scope="row">9/27</th>
       <td>Lecture</td>
       <td>L8</td>
-      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=11">Mapping Over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=11">Mapping Over Lists</a> <a href="{{ '/assets/slides/maps-matches.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">9/28</th>
+      <td>Project</td>
+      <td>P1</td>
+      <td><a href="{{ '/projects/1' | prepend: site.baseurl | prepend: site.url }}">PROJECT 1 DEADLINE</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/29</th>
       <td>Lecture</td>
       <td>L9</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o">Pattern Matching</a></td> -->
-      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=12">Quasiquoting and Pattern Matching</a></td>
+      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=12">Quasiquoting and Pattern Matching</a> <a href="{{ '/assets/slides/maps-matches.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">10/02</th>
+      <td>Project</td>
+      <td>P2</td>
+      <td><a href="{{ '/projects/2' | prepend: site.baseurl | prepend: site.url }}">Transitive Closure -- Released</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">10/4</th>
@@ -144,12 +144,6 @@ layout: mainpage
       <td>L12</td>
       <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=15">Folding over Lists</a></td>
     </tr>
-    <tr class="table-warning">
-      <th scope="row">10/6</th>
-      <td>Project</td>
-      <td>P2</td>
-      <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=19">PageRank</a></td>
-    </tr>
     <tr class="table-primary">
       <th scope="row">10/11</th>
       <td>Lecture</td>
@@ -161,6 +155,12 @@ layout: mainpage
       <td>Lecture</td>
       <td>L14</td>
       <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">10/13</th>
+      <td>Project</td>
+      <td>P2</td>
+      <td><a href="{{ '/projects/2' | prepend: site.baseurl | prepend: site.url }}">PROJECT 2 DEADLINE</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">10/18</th>

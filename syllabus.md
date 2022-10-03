@@ -45,8 +45,8 @@ placed upon training in algorithmic thinking and programming strategy.
    "good faith attempt" (some not-insignificat effort towards a
    solution).
 - **Projects -- 60%**
- - Five projects, worth 15% each, except for one shorter warmup
-   project worth 10%.
+ - Five projects, worth <strike>15%</strike> 12% each. <strike>except for one shorter warmup
+   project worth 10%</strike>.
 
 Final grades will be assigned as follows; final grading bars will be
 announced a few days before the final exam.
