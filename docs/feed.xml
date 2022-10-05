@@ -5,9 +5,28 @@
     <description>CMSC352--Principles of Programming Languages (Fall '22) at Syracuse</description>
     <link>https://kmicinski.com/cis352-f22/</link>
     <atom:link href="https://kmicinski.com/cis352-f22/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2022 00:06:30 -0400</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2022 00:06:30 -0400</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 13:08:27 -0400</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 13:08:27 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Project 3: Transitive Closure</title>
+        <description>&lt;p&gt;&lt;strong&gt;Due&lt;/strong&gt;: Tuesday, November 1, 11:59PM.&lt;/p&gt;
+
+&lt;p&gt;Available on http://autograde.org. Use your credentials to login.&lt;/p&gt;
+
+&lt;p&gt;This is a stub–further details will be provided soon.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Oct 2022 00:00:00 -0400</pubDate>
+        <link>https://kmicinski.com/cis352-f22/projects/3</link>
+        <guid isPermaLink="true">https://kmicinski.com/cis352-f22/projects/3</guid>
+        
+        
+        <category>assignment</category>
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Project 2: Transitive Closure</title>
