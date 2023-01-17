@@ -2,31 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CIS352</title>
-    <description>CMSC352--Principles of Programming Languages (Fall '22) at Syracuse</description>
-    <link>https://kmicinski.com/cis352-f22/</link>
-    <atom:link href="https://kmicinski.com/cis352-f22/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Dec 2022 13:56:18 -0500</pubDate>
-    <lastBuildDate>Thu, 08 Dec 2022 13:56:18 -0500</lastBuildDate>
+    <description>CMSC352--Principles of Programming Languages (Spring '23) at Syracuse</description>
+    <link>https://kmicinski.com/cis352-s23/</link>
+    <atom:link href="https://kmicinski.com/cis352-s23/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 Jan 2023 21:23:49 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2023 21:23:49 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
-    
-      <item>
-        <title>Project 3: Scheme Interpreter</title>
-        <description>&lt;p&gt;&lt;strong&gt;Due&lt;/strong&gt;: Tuesday, November 1, 11:59PM.&lt;/p&gt;
-
-&lt;p&gt;Available on http://autograde.org. Use your credentials to login.&lt;/p&gt;
-
-&lt;p&gt;In this project, you will write&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Oct 2022 00:00:00 -0400</pubDate>
-        <link>https://kmicinski.com/cis352-f22/projects/3</link>
-        <guid isPermaLink="true">https://kmicinski.com/cis352-f22/projects/3</guid>
-        
-        
-        <category>assignment</category>
-        
-        <category>project</category>
-        
-      </item>
     
       <item>
         <title>Project 2: Transitive Closure</title>
@@ -568,8 +549,8 @@ select for your project to be graded.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sun, 02 Oct 2022 00:00:00 -0400</pubDate>
-        <link>https://kmicinski.com/cis352-f22/projects/2</link>
-        <guid isPermaLink="true">https://kmicinski.com/cis352-f22/projects/2</guid>
+        <link>https://kmicinski.com/cis352-s23/projects/2</link>
+        <guid isPermaLink="true">https://kmicinski.com/cis352-s23/projects/2</guid>
         
         
         <category>assignment</category>
@@ -907,8 +888,8 @@ the autograder) but want to work the project.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 17 Sep 2022 00:00:00 -0400</pubDate>
-        <link>https://kmicinski.com/cis352-f22/projects/1</link>
-        <guid isPermaLink="true">https://kmicinski.com/cis352-f22/projects/1</guid>
+        <link>https://kmicinski.com/cis352-s23/projects/1</link>
+        <guid isPermaLink="true">https://kmicinski.com/cis352-s23/projects/1</guid>
         
         
         <category>assignment</category>
